@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int main () {
+void main () {
     int symbol, num1, num2, sum;
 
-    printf("What type of caluclation do you want-\nPress 1 for addition \nPress 2 for subtraction \nPress 3 for multiplication \nPress 4 for division");
+    printf("What type of caluclation do you want-\nPress 1 for addition, \nPress 2 for subtraction, \nPress 3 for multiplication, \nPress 4 for division ");
     scanf("%d", &symbol);
 
     printf("Enter first number: ");
