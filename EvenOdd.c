@@ -1,12 +1,13 @@
 #include <stdio.h>
 
-void main () {
-   int num;
+void main() {
+   int number;
+   clrscr();
 
     printf("Enter your number: ");
-    scanf("%d", &num);
+    scanf("%d", &number);
 
-    if (num % 2 == 0) {
-        printf("%d is an even number", num);
+    if (number % 2 == 0) {
+        printf("%d is an even number", number);
     }
 }
