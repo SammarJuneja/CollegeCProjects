@@ -2,7 +2,6 @@
 
 void main() {
     int number;
-    clrscr();
     
     printf("Enter a number: ");
     scanf("%d", &number);

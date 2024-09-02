@@ -2,7 +2,6 @@
 
 void main() {
     int number, digit, reversed = 0;
-    clrscr();
 
     printf("Enter your number: ");
     scanf("%d", &number);

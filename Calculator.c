@@ -3,7 +3,6 @@
 void main() {
     int num1, num2, sum;
     char operator;
-    clrscr();
 
     printf("Enter first number: ");
     scanf("%d", &num1);
